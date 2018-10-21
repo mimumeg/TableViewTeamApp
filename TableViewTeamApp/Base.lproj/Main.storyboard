@@ -11,7 +11,7 @@
         <!--Root View Controller-->
         <scene sceneID="kUy-cg-Woc">
             <objects>
-                <tableViewController id="lqG-aT-rRj" sceneMemberID="viewController">
+                <tableViewController id="lqG-aT-rRj" customClass="ThirdTableViewController" customModule="TableViewTeamApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="6a4-08-5YF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -52,6 +52,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="7LI-Yg-xql" kind="show" id="Ifl-Om-MwQ"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="7vW-KW-pGy" style="IBUITableViewCellStyleDefault" id="bfJ-cf-If3">
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
