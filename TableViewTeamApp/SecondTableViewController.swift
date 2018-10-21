@@ -1,15 +1,26 @@
 //
-//  TableViewController.swift
+//  SecondTableViewController.swift
 //  TableViewTeamApp
 //
-//  Created by Megumi Mimura on 2018/10/21.
-//  Copyright © 2018 三村恵. All rights reserved.
+//  Created by 大村昇 on 2018/10/21.
+//  Copyright © 2018年 三村恵. All rights reserved.
 //
 
 import UIKit
 
-class TableViewTeam: UITableViewController {
+class SecondTableViewController: UITableViewController {
 
+    var names: [String] = [
+        "トルコ",
+        "エジプト",
+        "ナイジェリア",
+        "ケニア",
+        "南アフリカ共和国",
+        "イラク",
+        "イラン",
+        "日本"
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,23 +35,25 @@ class TableViewTeam: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return names.count
     }
-
-    /*
+    
+    
+   
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "NameCell", for: indexPath)
 
         // Configure the cell...
+        cell.textLabel?.text = names[indexPath.row]
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
