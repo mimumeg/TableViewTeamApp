@@ -13,6 +13,7 @@
 		7E4E8CDA217C333500194FF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4E8CD9217C333500194FF6 /* Assets.xcassets */; };
 		7E4E8CDD217C333500194FF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E4E8CDB217C333500194FF6 /* LaunchScreen.storyboard */; };
 		CF42899C217C469B00B5EBA1 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF42899B217C469B00B5EBA1 /* SecondTableViewController.swift */; };
+		7E4E8CE5217C3E8300194FF6 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4E8CE4217C3E8300194FF6 /* FirstTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		7E4E8CDC217C333500194FF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E4E8CDE217C333500194FF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF42899B217C469B00B5EBA1 /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		7E4E8CE4217C3E8300194FF6 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 				7E4E8CDB217C333500194FF6 /* LaunchScreen.storyboard */,
 				7E4E8CDE217C333500194FF6 /* Info.plist */,
 				CF42899B217C469B00B5EBA1 /* SecondTableViewController.swift */,
+				7E4E8CE4217C3E8300194FF6 /* FirstTableViewController.swift */,
 			);
 			path = TableViewTeamApp;
 			sourceTree = "<group>";
@@ -140,6 +144,7 @@
 			files = (
 				7E4E8CD5217C333300194FF6 /* ViewController.swift in Sources */,
 				CF42899C217C469B00B5EBA1 /* SecondTableViewController.swift in Sources */,
+				7E4E8CE5217C3E8300194FF6 /* FirstTableViewController.swift in Sources */,
 				7E4E8CD3217C333300194FF6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
